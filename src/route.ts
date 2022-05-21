@@ -2,6 +2,12 @@ import FEATURE_TOGGLE from './featureToggle';
 
 const ROUTES = {
   home: '/',
+  workspace: "http://localhost:8000",
+  projectManage: "/project",
+  itJournal: "/it_journal",
+  fbcash: "/fb_cash",
+  board: "/board",
+  template: "/template",
   productCore: '/core/',
   productAdvanced: '/x/',
   productTemplates: '/templates/',

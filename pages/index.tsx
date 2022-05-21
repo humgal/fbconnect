@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import ROUTES from 'src/route';
 
 const Home: NextPage = () => {
   return (
@@ -22,18 +23,18 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <a href="http://localhost:8000" className={styles.card}>
+          <a href={ROUTES.workspace} className={styles.card}>
             <h2>Workspace &rarr;</h2>
             <p>Your chat client && Your All in one Notebook</p>
           </a>
 
-          <a href="" className={styles.card}>
+          <a href={ROUTES.projectManage} className={styles.card}>
             <h2>Project Manage &rarr;</h2>
             <p>Vividly display the project status and Detail </p>
           </a>
 
           <a
-            href="it_journal"
+            href={ROUTES.itJournal}
             className={styles.card}
           >
             <h2>IT Journal &rarr;</h2>
@@ -41,7 +42,7 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href=""
+            href={ROUTES.fbcash}
             className={styles.card}
           >
             <h2>FB cash &rarr;</h2>
@@ -51,7 +52,7 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href=""
+            href={ROUTES.board}
             className={styles.card}
           >
             <h2>Board &rarr;</h2>
@@ -60,7 +61,7 @@ const Home: NextPage = () => {
             </p>
           </a>
           <a
-            href=""
+            href={ROUTES.template}
             className={styles.card}
           >
             <h2>Template &rarr;</h2>

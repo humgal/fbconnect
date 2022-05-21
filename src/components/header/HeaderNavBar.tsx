@@ -197,25 +197,35 @@ export default function HeaderNavBar() {
           <Link
             role="menuitem"
             href={
-              asPathWithoutLang.startsWith('/x') ? ROUTES.advancedComponents : ROUTES.documentation
+              ROUTES.workspace
             }
           >
-            Docs
+           Workspace 
           </Link>
         </li>
         <li role="none">
-          <Link role="menuitem" href={ROUTES.pricing}>
-            Pricing
+          <Link role="menuitem" href={ROUTES.projectManage}>
+            Project Manage
           </Link>
         </li>
         <li role="none">
-          <Link role="menuitem" href={ROUTES.about}>
-            About us
+          <Link role="menuitem" href={ROUTES.itJournal}>
+            IT Journal
           </Link>
         </li>
         <li role="none">
-          <Link role="menuitem" href={ROUTES.blog}>
-            Blog
+          <Link role="menuitem" href={ROUTES.fbcash}>
+            Fbcash
+          </Link>
+        </li>
+        <li role="none">
+          <Link role="menuitem" href={ROUTES.board}>
+            Board
+          </Link>
+        </li>
+        <li role="none">
+          <Link role="menuitem" href={ROUTES.template}>
+            Template
           </Link>
         </li>
       </ul>
