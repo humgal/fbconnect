@@ -7,7 +7,7 @@ import Paper from '@mui/material/Paper';
 import Fade from '@mui/material/Fade';
 import Typography from '@mui/material/Typography';
 import ROUTES from 'src/route';
-import Link from 'src/components/Link';
+import Link from '@mui/material/Link';
 
 const Navigation = styled('nav')(({ theme }) => ({
   '& ul': {

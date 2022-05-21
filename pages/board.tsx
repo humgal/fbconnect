@@ -5,9 +5,7 @@ import AppHeader from "src/layout/AppHeader";
 export default function blog() {
   return (
     
-    <main>
-        board
-    </main>
+    <AppHeader />
     )
 
     }

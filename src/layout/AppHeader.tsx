@@ -72,7 +72,7 @@ export default function AppHeader() {
             <IconButton
               component="a"
               color="primary"
-              href="https://github.com/mui"
+              href="https://github.com/humgal/fbconnect.git"
               data-ga-event-category="header"
               data-ga-event-action="github"
             >
